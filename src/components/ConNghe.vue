@@ -1,10 +1,16 @@
 <template>
-$END$
+  <div>
+    <img :src="duongdan" alt="">
+  </div>
+
 </template>
 
 <script>
 export default {
-name: "ConNghe"
+  name: "ConNghe",
+  props:{
+    duongdan: String
+  },
 }
 </script>
 
